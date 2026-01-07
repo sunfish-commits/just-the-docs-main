@@ -14,9 +14,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Just the Docs
-description: A Jekyll theme for documentation
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://just-the-docs.com" # the base hostname & protocol for your site, e.g. http://example.com
+description: Technical documentation
+theme: null
+
+color_scheme: light
+search_enabled: true
+
+baseurl: "/just-the-docs-main"
+url: "https://sunfish-commits.github.io"
 repository: just-the-docs/just-the-docs # for github-metadata
 
 permalink: pretty
